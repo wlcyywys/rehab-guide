@@ -3,9 +3,9 @@ window.REHAB_DATA = {
   "title": "肘关节OA合并僵硬 关节镜松解术后康复",
   "applicable": "适用于单纯清理／骨赘切除／关节囊松解且肘关节稳定者；合并修复手术另定方案。",
   "doctor": {
-    "name": "【待填写：医生姓名】",
-    "clinic": "【待填写：医院/科室名称】",
-    "contact": "【待填写：复诊/咨询方式（可选）】"
+    "name": "王磊",
+    "clinic": "浙江省绍兴市人民医院 骨科运动医学中心",
+    "contact": ""
   },
   "disclaimer": "本页面仅供康复参考，请遵医嘱",
   "fullVideo": "assets/videos/elbow-rehab-full.mp4",

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>扫码查看康复指导 · 二维码</title>
+<meta name="description" content="肘关节松解术后康复指导网页二维码，可打印张贴。">
+<meta name="theme-color" content="#0B3A6E">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var f=localStorage.getItem('rehab-font-size');if(f==='l'||f==='xl')document.documentElement.setAttribute('data-font',f)}catch(e){}</script>
+</head>
+<body data-page="qr">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="topbar">
+  <div class="wrap">
+    <a class="btn btn-back" href="index.html">‹ 返回首页</a>
+    <div class="font-switch" role="group" aria-label="调整字号"></div>
+  </div>
+</header>
+
+<main id="main" class="wrap qr-page">
+  <h1>肘关节松解术后康复指导</h1>
+  <p>肘关节OA合并僵硬 · 关节镜松解术后</p>
+  <p><b>微信扫一扫，按术后时间查看康复动作视频</b></p>
+  <img class="qr-img" src="assets/qr/qr-pages.svg" width="420" height="420" alt="康复指导网页二维码，网址 https://wlcyywys.github.io/rehab-guide/">
+  <p class="url">https://wlcyywys.github.io/rehab-guide/</p>
+  <!-- 医生 / 医院信息同样来自 content/rehab-data.json 的 "doctor" 字段 -->
+  <section class="card doctor" id="qr-doctor" aria-label="医生与医院信息"></section>
+  <button type="button" class="btn print-btn no-print" id="print-btn" hidden>打印本页（A4）</button>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="disclaimer">本页面仅供康复参考，请遵医嘱</p>
+    <p><a href="index.html">返回首页</a></p>
+  </div>
+</footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>

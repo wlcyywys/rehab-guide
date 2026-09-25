@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>肘关节松解术后康复指导</title>
+<meta name="description" content="肘关节OA合并僵硬 · 关节镜松解术后四阶段康复指导：按术后时间查看动作示范视频、要点与注意事项。">
+<meta name="theme-color" content="#0B3A6E">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var f=localStorage.getItem('rehab-font-size');if(f==='l'||f==='xl')document.documentElement.setAttribute('data-font',f)}catch(e){}</script>
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="topbar">
+  <div class="wrap">
+    <a class="topbar-title" href="index.html">康复指导</a>
+    <div class="font-switch" role="group" aria-label="调整字号"></div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <h1>肘关节松解术后康复指导</h1>
+      <p class="subtitle"><span>肘关节OA合并僵硬</span> · <span>关节镜松解术后</span></p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <!--
+      医生 / 医院信息：请只在 content/rehab-data.json 的 "doctor" 字段修改（name / clinic / contact），
+      然后运行 python3 tools/sync-data.py 同步本地回退文件。此处由 js/app.js 自动显示。
+    -->
+    <section class="card doctor" id="doctor-info" aria-label="医生与医院信息"></section>
+
+    <p class="scope" id="scope"></p>
+
+    <h2 class="section-title">康复时间轴</h2>
+    <p class="overlap-note">各阶段时间<b>有重叠、前后衔接</b>：进入下一阶段后，前面的活动度练习通常仍需继续。<b>到时间不等于自动放行，以医生评估为准。</b></p>
+
+    <section class="card week-picker" aria-labelledby="week-q">
+      <h2 id="week-q" style="font-size:1.15rem">我是术后第几周？</h2>
+      <p class="week-hint">点一下，帮您找到推荐阶段（不会记录任何信息）。</p>
+      <div class="choices" id="week-choices"></div>
+      <div class="week-result" id="week-result" aria-live="polite"></div>
+    </section>
+
+    <ol class="timeline" id="timeline" aria-label="四个康复阶段"></ol>
+    <noscript><ol class="card"><li><a href="stage1.html">第1阶段 早期活动：消肿，保住活动度（术后当天至第2周）</a></li><li><a href="stage2.html">第2阶段 巩固活动度：弯曲、伸直、旋转（术后第2–6周）</a></li><li><a href="stage3.html">第3阶段 恢复力量：轻阻力，慢慢加（术后约第4–12周）</a></li><li><a href="stage4.html">第4阶段 回归生活与运动：按任务放行（术后约1周至6个月以上）</a></li></ol></noscript>
+    <p id="load-error" class="card" hidden>内容加载失败，请检查网络后刷新页面，或查看下方原始海报。</p>
+
+    <section class="danger" id="danger" aria-label="危险信号"></section>
+
+    <section class="card full-video">
+      <h2>完整康复视频</h2>
+      <p>四个阶段全部动作合集，约 2 分 27 秒，无声音。</p>
+      <video controls playsinline webkit-playsinline x5-playsinline preload="none" src="assets/videos/elbow-rehab-full.mp4" aria-label="四阶段完整康复视频"></video>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="disclaimer">本页面仅供康复参考，请遵医嘱</p>
+    <p><a href="qr.html">打印本页二维码</a></p>
+  </div>
+</footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ window.REHAB_DATA = {
   "doctor": {
     "name": "王磊",
     "clinic": "浙江省绍兴市人民医院 骨科运动医学中心",
-    "contact": ""
+    "contact": "专家门诊：周二全天（绍兴市人民医院昌安院区）；周四全天（绍兴市人民医院镜湖院区）"
   },
   "disclaimer": "本页面仅供康复参考，请遵医嘱",
   "fullVideo": "assets/videos/elbow-rehab-full.mp4",
